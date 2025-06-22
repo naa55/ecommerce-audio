@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@import "tailwindcss";
+
+
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(56, 56, 56, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 70%;
+  max-height: 100vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.footer-links {
+  color: white;
+}
+
+:hover .footer-links {
+  color: rgb(216, 125, 74);
+
+}
+
+.bg-primary {
+  background-color: rgb(216, 125, 74);
+}
+
+.text-primary {
+  color: rgb(216, 125, 74);
+}
+
+:hover .bg-primary {
+  background-color: rgb(228, 118, 54);
+
+}
