@@ -5,6 +5,7 @@ import FeatureTwo from '../components/FeatureTwo';
 import FeatureThree from '../components/FeatureThree';
 import HomeFeature from '../components/HomeFeature';
 import HomeFeatureTwo from '../components/HomeFeatureTwo';
+import FeatureFour from '../components/FeatureFour';
 
 const Home = () => {
   useEffect(() => {
@@ -17,6 +18,9 @@ const Home = () => {
       <HomeFeature />
       <HomeFeatureTwo />
       <FeatureTwo />
+      <div>
+        <FeatureFour/>
+      </div>
       {/* <FeatureThree/> */}
     </div>
   )
